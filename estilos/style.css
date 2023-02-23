@@ -54,8 +54,11 @@ body {
 }
 
 .apresentacao__links__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
     width: 378px;
-    text-align: center;
     border: 2px solid #22D4FD;
     border-radius: 8px;
     padding: 16px 0;
@@ -64,4 +67,8 @@ body {
     font-weight: 600;
     font-size: 24px;
     color: #F6F6F6;
+}
+
+.apresentacao__links__link:hover {
+    background-color: #272727;
 }
