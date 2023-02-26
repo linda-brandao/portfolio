@@ -1,19 +1,46 @@
-.experiencias,
-.habilidades-tecnicas,
-.formacao {
+.curriculo {
     display: flex;
-    flex-direction: column;
-    gap: 28px;
+    gap: 24px;
+}
+
+.curriculo__conteudo {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.card-info {
+    width: 50%;
+    padding: 2%;
     font-family: 'Montserrat', sans-serif;
+    border: 2px solid #22D4FD;
+    border-radius: 4%;
+    transition: .5s;
+}
+
+.card {
+    padding-bottom: 8%;
+}
+
+.curriculo_subtitulo {
+    text-align: center;
+    padding-bottom: 8%;
+    color: #22D4FD;
 }
 
 .experiencias__informacoes {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 16px;
 }
 
-.experiencias__tempo {
+.duracao {
     color: #cfcfcf;
     font-weight: 400;
     font-size: 16px;
@@ -32,11 +59,11 @@
 }
 
 .experiencias__info {
-    font-size: 18px;
+    font-size: 16px;
 }
 
-.habilidades-tecnicas__informacoes {
-    display: flex;
-    justify-content: space-between;
-
+.card-info:hover {
+    background-color: #272727;
+    transition: .5s;
+    padding: 3%;
 }

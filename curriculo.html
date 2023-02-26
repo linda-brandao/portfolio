@@ -10,24 +10,19 @@
     </head>
     <body>
         <header class="cabecalho">
-            <nav class="cabecalho__menu">
-                <a class="cabecalho__menu__link" href="index.html">Home</a>
-                <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
-                <a class="cabecalho__menu__link" href="curriculo.html">Currículo</a>
+            <nav class="menu">
+                <a class="menu__link" href="index.html">Home</a>
+                <a class="menu__link" href="about.html">Sobre mim</a>
+                <a class="menu__link" href="curriculo.html">Currículo</a>
             </nav>
         </header>
 
         <main class="apresentacao">
-            <section class="apresentacao__conteudo">
-                <section class="apresentacao__conteudo__curriculo">
-                    <h1 class="apresentacao__conteudo__titulo">Linda Brandão</h1>
-                    <p class="apresentacao__conteudo__texto apresentacao__conteudo__titulo-destaque">UX/UI Designer</p>
-                </section>
-
-                <section class="experiencias">
-                    <h2 class="apresentacao__links__subtitulo">Experiência Profissional</h2>
+            <section class="curriculo">
+                <section class="card-info">
+                    <h2 class="subtitulo curriculo_subtitulo">Experiência Profissional</h2>
                     <div class="experiencias__informacoes">
-                        <p class="experiencias__tempo">Janeiro de 2021 - Janeiro de 2023</p>
+                        <p class="duracao">Janeiro de 2021 - Janeiro de 2023</p>
                         <p class="experiencias__subtitulo">Centro de Educação Tecnológica do Amazonas - CETAM, Estagiária</p>
                         <a class="experiencias__link" href="https://www.cetam.am.gov.br">cetam.am.gov.br</a>
                         <p class="experiencias__info">
@@ -36,53 +31,65 @@
                     </div>
                 </section>
 
-                <section class="habilidades-tecnicas">
-                    <h2 class="apresentacao__links__subtitulo">Habilidades Técnicas</h2>
+                <section class="card-info">
+                    <h2 class="subtitulo curriculo_subtitulo">Habilidades Técnicas</h2>
                     <div class="habilidades-tecnicas__informacoes">
                         <div class="experiencias__informacoes">
-                            <h3 class="experiencias__subtitulo">Softwares</h3>
-                            <ul>
-                                <li>Photoshop</li>
-                                <li>Figma</li>
-                            </ul>
+                            <div class="card">
+                                <h3 class="experiencias__subtitulo">Softwares</h3>
+                                <ul class="experiencias__info">
+                                    <li>Photoshop</li>
+                                    <li>Figma</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <div class="experiencias__informacoes">
+                            <div class="card">
+                                <h3 class="experiencias__subtitulo">Habilidades</h3>
+                                <ul class="experiencias__info">
+                                    <li>Organização</li>
+                                    <li>Comunicação</li>
+                                    <li>Criatividade</li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="experiencias__informacoes">
-                            <h3 class="experiencias__subtitulo">Habilidades</h3>
-                            <ul>
-                                <li>Organização</li>
-                                <li>Comunicação</li>
-                                <li>Criatividade</li>
-                            </ul>
-                        </div>
-                        <div class="experiencias__informacoes">
-                            <h3 class="experiencias__subtitulo">Conhecimentos</h3>
-                            <ul>
-                                <li>UI Design</li>
-                                <li>UX Design</li>
-                            </ul>
+                            <div class="card">
+                                <h3 class="experiencias__subtitulo">Conhecimentos</h3>
+                                <ul class="experiencias__info">
+                                    <li>UI Design</li>
+                                    <li>UX Design</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </section>
 
-                <section class="formacao">
-                    <h2 class="apresentacao__links__subtitulo">Formação e Cursos</h2>
+                <section class="card-info">
+                    <h2 class="subtitulo curriculo_subtitulo">Formação e Cursos</h2>
                     <div class="experiencias__informacoes">
-                        <h3 class="experiencias__subtitulo">Universidade do Estado do Amazonas – UEA</h3>
-                        <p class="experiencias__info">Bacharel em Ciência da Computação</p>
+                        <div class="card">
+                            <h3 class="experiencias__subtitulo">Universidade do Estado do Amazonas – UEA</h3>
+                            <p class="experiencias__info">Bacharel em Ciência da Computação</p>
+                        </div>
                     </div>
 
                     <div class="experiencias__informacoes">
-                        <h3 class="experiencias__subtitulo">Cetam</h3>
-                        <p class="experiencias__info">Informática Básica e Avançada</p>
+                        <div class="card">
+                            <h3 class="experiencias__subtitulo">Cetam</h3>
+                            <p class="experiencias__info">Informática Básica e Avançada</p>
+                        </div>
                     </div>
 
                     <div class="experiencias__informacoes">
-                        <h3 class="experiencias__subtitulo">Alura</h3>
-                        <p class="experiencias__info">Formação UX Design</p>
+                        <div class="card">
+                            <h3 class="experiencias__subtitulo">Alura</h3>
+                            <p class="experiencias__info">Formação UX Design</p>
+                        </div>
                     </div>
                 </section>
             </section>
-            <img src="imagens/minha_imagem.png" alt="Imagem da Linda Hillary sorrindo">
         </main>
 
         <footer class="rodape">
