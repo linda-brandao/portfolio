@@ -3,6 +3,7 @@
     --color-secundary: #FAFAFA;
     --color-terciary: #22D4FD;
     --color-hover: #131313;
+    --color-legend: #B2B2B2;
 
     --font-primary: 'Krona One', sans-serif;
     --font-secundary: 'Montserrat', sans-serif;
@@ -10,6 +11,6 @@
     --font-size-title-destaque: 32px;
     --font-size-title: 24px;
     --font-size-subtitle: 20px;
-    --font-size-text: 18px;
-    --font-size-legenda: 16px;
+    --font-size-text: 16px;
+    --font-size-legenda: 14px;
 }
