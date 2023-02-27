@@ -17,6 +17,10 @@ body {
     padding: 2% 16%;
 }
 
+.principal {
+    padding: 6.2% 16%;
+}
+
 .menu {
     display: flex;
     justify-content: space-between;
@@ -26,6 +30,10 @@ body {
 .menu__logo {
     font-family: var(--font-secundary);
     font-size: var(--font-size-subtitle);
+}
+
+.menu__logo__link {
+    text-decoration: none;
     color: var(--color-terciary);
 }
 
@@ -48,10 +56,6 @@ body {
     display: flex;
     align-items: center;
     gap: 40px;
-}
-
-.principal {
-    padding: 4% 16%;
 }
 
 .conteudo {

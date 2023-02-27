@@ -1,0 +1,44 @@
+/* BARRA DE SKILL */
+.skill {
+    display: flex;
+    align-items: center;
+    background: var(--color-secundary);
+    margin: 4px 0;
+    height: 16px;
+    border-radius: 5px;
+}
+
+.bar {
+    height: 16px;
+    background: var(--color-terciary);
+    border-radius: 5px;
+}
+/* BARRA DE SKILL */
+
+.bar__photoshop {
+    width: 85%;
+}
+
+.bar__figma {
+    width: 50%;
+}
+
+.bar__organizacao {
+    width: 90%;
+}
+
+.bar__comunicacao {
+    width: 75%;
+}
+
+.bar__criatividade {
+    width: 85%;
+}
+
+.bar__ui {
+    width: 68%;
+}
+
+.bar__ux {
+    width: 84%;
+}
