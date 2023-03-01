@@ -55,7 +55,7 @@ body {
 .conteudo__coluna{
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 80px;
 }
 
 .conteudo {
@@ -145,4 +145,10 @@ body {
     color: var(--color-primary);
     font-family: var(--font-secundary);
     font-size: var(--font-size-legenda);
+}
+
+@media (max-width: 1120px) {
+    .principal {
+        flex-direction: column-reverse;
+    }
 }
