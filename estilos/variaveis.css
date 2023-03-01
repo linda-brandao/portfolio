@@ -8,9 +8,9 @@
     --font-primary: 'Krona One', sans-serif;
     --font-secundary: 'Montserrat', sans-serif;
 
-    --font-size-title-destaque: 32px;
-    --font-size-title: 24px;
-    --font-size-subtitle: 20px;
-    --font-size-text: 16px;
-    --font-size-legenda: 14px;
+    --font-size-title-destaque: 2rem;
+    --font-size-title: 1.5rem;
+    --font-size-subtitle: 1.25rem;
+    --font-size-text: 1rem;
+    --font-size-legenda: .9rem;
 }
