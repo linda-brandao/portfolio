@@ -61,6 +61,7 @@ body {
 .conteudo {
     display: flex;
     flex-direction: column;
+    width: 50%;
     gap: 32px;
 }
 
@@ -131,6 +132,10 @@ body {
     background-color: var(--color-terciary);
     transition: .5s;
     padding: 3%;
+}
+
+.princical__imagem {
+    width: 50%;
 }
 
 .rodape {
