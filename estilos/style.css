@@ -152,5 +152,11 @@ body {
 
     .principal {
         flex-direction: column-reverse;
+        padding: 6%;
+        gap: 48px;
+    }
+
+    .conteudo {
+        width: auto;
     }
 }
