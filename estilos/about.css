@@ -1,0 +1,11 @@
+.conteudo__about {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.conteudo__coluna{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}

@@ -19,8 +19,7 @@ body {
 
 .menu {
     display: flex;
-    justify-content: space-between; 
-    gap: 56px; 
+    justify-content: space-between;
 }
 
 .menu__logo,
@@ -39,10 +38,6 @@ body {
 
 .principal {
     padding: 6.2% 16%;
-}
-
-.principal,
-.conteudo__coluna{
     display: flex;
     align-items: center;
     gap: 80px;
@@ -139,15 +134,18 @@ body {
 
 @media (max-width: 1120px) {
     .cabecalho {
-        padding: 10%;
+        padding: 10% 6%;
     }
 
     .menu {
         justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 24px;
     }
 
-    .menu__logo {
-        display: none;
+    .menu__links {
+        gap: 40px;
     }
 
     .principal {
@@ -158,5 +156,9 @@ body {
 
     .conteudo {
         width: auto;
+    }
+
+    .redes-sociais {
+        align-items: center;
     }
 }
