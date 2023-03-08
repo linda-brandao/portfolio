@@ -9,3 +9,13 @@
     align-items: center;
     gap: 24px;
 }
+
+@media (max-width: 1120px) {
+    .conteudo__about {
+        align-items: center;
+    }
+    .conteudo__coluna {
+        flex-direction: column;
+        gap: 48px;
+    }
+}
