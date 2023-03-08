@@ -36,6 +36,10 @@ body {
     gap: 56px;
 }
 
+.ativado {
+    font-weight: 600;
+}
+
 .principal {
     padding: 6.2% 16%;
     display: flex;
