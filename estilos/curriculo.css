@@ -1,39 +1,36 @@
-.principal__curriculo {
+.principal__curriculo,
+.curriculo,
+.informacoes,
+.lista {
     display: flex;
     flex-direction: column;
+}
+
+.principal__curriculo {
     gap: 40px;
 }
 
 .curriculo {
-    display: flex;
-    flex-direction: column;
     gap: 24px;
 }
 
 .subtitulo {
-    padding-bottom: 1.5%;
+    padding-bottom: .5%;
     border-bottom: 1px solid var(--color-terciary);
 }
 
-.informacoes,
-.informacoes__card {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+.informacoes {
+    gap: 10px;
 }
 
-.lista {
-    list-style: none;
-}
-
-.lista li {
-    padding-bottom: 8%;
+.informacoes__legenda,
+.informacoes__link {
+    font-size: var(--font-size-legenda);
+    font-family: var(--font-secundary);
 }
 
 .informacoes__legenda {
     color: var(--color-legend);
-    font-size: var(--font-size-legenda);
-    font-family: var(--font-secundary);
 }
 
 .informacoes__subtitulo {
@@ -44,8 +41,11 @@
 
 .informacoes__link {
     color: var(--color-terciary);
-    font-size: var(--font-size-legenda);
-    font-family: var(--font-secundary);
+}
+
+.lista {
+    padding-left: 16px;
+    gap: 8px;
 }
 
 .informacoes__cards {
@@ -55,4 +55,12 @@
 
 .informacoes__card {
     width: 20%;
+}
+
+@media (max-width: 1120px) {
+    .informacoes__cards {
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+
 }
