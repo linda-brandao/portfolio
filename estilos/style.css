@@ -11,6 +11,9 @@ body {
     box-sizing: border-box;
     background-color: var(--color-primary);
     color: var(--color-secundary);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .cabecalho {
@@ -45,6 +48,7 @@ body {
     display: flex;
     align-items: center;
     gap: 80px;
+    flex-grow: 1;
 }
 
 .conteudo {
@@ -156,13 +160,14 @@ body {
         flex-direction: column-reverse;
         padding: 6%;
         gap: 48px;
+        flex-grow: 1;
     }
 
     .conteudo {
         width: auto;
     }
 
-    .redes-sociais {
-        
+    .rodape {
+        align-items: end;
     }
 }
